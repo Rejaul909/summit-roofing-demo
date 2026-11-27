@@ -28,6 +28,9 @@ summit-roofing/
 │   ├── video/hero-roofers.mp4    # Hero loop (H.264, 900×1124, ~266 KB, no audio)
 │   └── img/                      # Poster (WebP + JPG), OG image, favicons
 ├── robots.txt
+├── vercel.json                   # Vercel: static preset, clean URLs, security + cache headers
+├── .vercelignore                 # Keeps README / guides / templates off the live site
+├── DEPLOY-VERCEL.md              # Step-by-step Vercel deployment guide
 └── seo/sitemap.template.xml      # Fill in the domain, then move to the site root
 ```
 
@@ -96,7 +99,9 @@ To use **Formspree** instead: set `formEndpoint` in `config.js` to your Formspre
 
 ## Deploy
 
-It's a static site: drag the folder into **Netlify Drop** (app.netlify.com/drop), or push it to GitHub Pages, Vercel or Cloudflare Pages.
+**Vercel (configured):** follow **DEPLOY-VERCEL.md**. The recommended project name is `summit-roofing-demo`, with no build step.
+
+It's a plain static site, so Netlify Drop, GitHub Pages and Cloudflare Pages also work. `vercel.json` is simply ignored by other hosts.
 
 ## Credits
 

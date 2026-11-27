@@ -1,0 +1,5 @@
+# Files kept in the repository but not published to the live site
+README.md
+DEPLOY-VERCEL.md
+seo/
+.git
