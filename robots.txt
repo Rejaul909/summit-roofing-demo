@@ -1,0 +1,6 @@
+# Summit Roofing Co. (demo)
+User-agent: *
+Allow: /
+
+# Before launch: add your sitemap with the real domain, e.g.
+# Sitemap: https://YOUR-DOMAIN/sitemap.xml
