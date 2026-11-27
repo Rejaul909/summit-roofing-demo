@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Summit Roofing Co. | Roof Replacement, Repair &amp; Storm Damage Roofing Contractor (Demo)</title>
+  <meta name="description" content="Residential roofing contractor for roof replacement, roof repair, storm damage restoration, roof inspections and gutters. Request a free roof estimate. Summit Roofing Co. is a fictional demo business.">
+  <meta name="theme-color" content="#F4A23C">
+  <meta name="robots" content="index, follow">
+
+  <!-- ===== PRODUCTION PLACEHOLDERS (see README → "Before going live") =====
+       When the real domain is known, uncomment and replace YOUR-DOMAIN:
+       <link rel="canonical" href="https://YOUR-DOMAIN/">
+       <meta property="og:url" content="https://YOUR-DOMAIN/">
+       Social platforms need an absolute og:image / twitter:image URL, e.g.
+       https://YOUR-DOMAIN/assets/img/og-image.jpg
+  ====================================================================== -->
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Summit Roofing Co.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Summit Roofing Co. | Residential Roofing Contractor (Demo)">
+  <meta property="og:description" content="Roof replacement, repair, storm damage restoration and free roof inspections. Fictional demo business built as a portfolio project.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Illustration of three roofers installing shingles on a house roof">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Summit Roofing Co. | Residential Roofing Contractor (Demo)">
+  <meta name="twitter:description" content="Roof replacement, repair, storm damage restoration and free roof inspections. Fictional demo business.">
+  <meta name="twitter:image" content="assets/img/og-image.jpg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://images.pexels.com">
+  <!-- Fonts load without blocking first paint (display=swap + print-media swap trick) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"></noscript>
+
+  <link rel="preload" as="image" href="assets/img/hero-roofers-poster.webp" type="image/webp" fetchpriority="high">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Structured data: only facts that are visible on this page.
+       Demo values to replace before production: name, telephone, areaServed.
+       Add "url", "address", "openingHoursSpecification" and "image" only once they are real. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "name": "Summit Roofing Co.",
+    "description": "Residential roofing contractor offering roof installation, roof replacement, roof repair, storm damage restoration, roof inspections and gutter installation. Fictional demo business.",
+    "telephone": "+1-555-010-7700",
+    "email": "hello@summitroofing.example",
+    "areaServed": ["Demo City", "North Demo Heights", "East Demo County", "West Demo Park", "Lake Demo", "South Demo Valley"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Roofing services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roof Installation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roof Replacement"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roof Repair"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Storm Damage Restoration"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roof Inspection"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Gutter Installation"}}
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="demo-bar" id="top" role="note">
+    <span class="demo-bar__dot" aria-hidden="true"></span>
+    <strong>Demo website.</strong>&nbsp;Summit Roofing Co. is a fictional company. Contact details, projects and testimonials are placeholders.
+  </div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#top" aria-label="Summit Roofing Co. — back to top">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M1 21 16 6l15 15h-6.2L16 12.2 7.2 21z"/><path d="M10 27l6-6 6 6z"/></svg>
+        <span class="brand__name">Summit<span class="brand__suffix">Roofing Co.</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#process">Process</a></li>
+          <li><a class="nav__link" href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="header-phone" href="tel:+15550107700" aria-label="Call (555) 010-7700">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+          <span>(555) 010-7700</span>
+        </a>
+        <a class="btn btn--dark btn--sm" href="#contact">Free Estimate</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile">
+      <ol class="mobile-menu__list">
+        <li><a href="#about"><span>01</span>About</a></li>
+        <li><a href="#services"><span>02</span>Services</a></li>
+        <li><a href="#projects"><span>03</span>Projects</a></li>
+        <li><a href="#process"><span>04</span>Process</a></li>
+        <li><a href="#faq"><span>05</span>FAQ</a></li>
+        <li><a href="#service-area"><span>06</span>Service Area</a></li>
+        <li><a href="#contact"><span>07</span>Contact</a></li>
+      </ol>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a class="btn btn--orange btn--block" href="#contact">Get Your Free Roof Estimate</a>
+      <a class="mobile-menu__phone" href="tel:+15550107700">(555) 010-7700</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--dark hero__eyebrow">Residential roofing contractor · Demo City, USA</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="line"><span>The roof</span></span>
+            <span class="line"><span>over everything</span></span>
+            <span class="line line--fade"><span>that matters</span></span>
+          </h1>
+
+          <div class="hero__bottom">
+            <p class="hero__lede">Installation, replacement and storm repair for American homes — handled by one accountable crew, from the first inspection to the final cleanup.</p>
+            <div class="hero__ctas">
+              <a class="btn btn--dark" href="#contact">
+                Get Your Free Roof Estimate
+                <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="link-underline" href="tel:+15550107700">or call <span class="nowrap">(555) 010-7700</span></a>
+            </div>
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <picture>
+            <source srcset="assets/img/hero-roofers-poster.webp" type="image/webp">
+            <img
+              src="assets/img/hero-roofers-poster.jpg"
+              width="900" height="1124"
+              alt="Illustration of three roofers in hard hats and safety vests installing shingles on a house roof"
+              fetchpriority="high" decoding="async">
+          </picture>
+          <!-- Hero loop video. The image above is its first frame and stays as the poster/fallback.
+               The video is only loaded by main.js (skipped for reduced motion / data saver)
+               and only shown once it is actually playing, so there is no layout shift. -->
+          <video class="hero__video" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"
+                 poster="assets/img/hero-roofers-poster.jpg"
+                 data-src-mp4="assets/video/hero-roofers.mp4"></video>
+          <figcaption class="hero__tag">
+            <span class="hero__tag-dot" aria-hidden="true"></span>
+            Now booking free roof inspections
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Roof Installation</span><i>✦</i><span>Roof Replacement</span><i>✦</i><span>Roof Repair</span><i>✦</i><span>Storm Damage Restoration</span><i>✦</i><span>Roof Inspection</span><i>✦</i><span>Gutter Installation</span><i>✦</i>
+        <span>Roof Installation</span><i>✦</i><span>Roof Replacement</span><i>✦</i><span>Roof Repair</span><i>✦</i><span>Storm Damage Restoration</span><i>✦</i><span>Roof Inspection</span><i>✦</i><span>Gutter Installation</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ TRUST BAR ============ -->
+    <section class="trust" aria-label="Why homeowners call Summit">
+      <ul class="trust__list container">
+        <li class="trust__item">
+          <svg class="trust__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c.6-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5"/></svg>
+          <span>Professional roofing team</span>
+        </li>
+        <li class="trust__item">
+          <svg class="trust__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+          <span>Residential roofing services</span>
+        </li>
+        <li class="trust__item">
+          <svg class="trust__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/><path d="M8 11l2 2 4-4"/></svg>
+          <span>Free roof inspections</span>
+        </li>
+        <li class="trust__item">
+          <svg class="trust__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4l6 6-9 9H5v-6z"/><path d="M12 6l6 6"/></svg>
+          <span>Workmanship-focused service</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-label reveal"><span>01</span> About Summit</div>
+
+        <h2 class="about__statement reveal" id="about-title">
+          A roof is a promise. <span class="muted">To keep your family dry, your home sound, and your weekends free of buckets under the ceiling. We take that promise personally.</span>
+        </h2>
+
+        <div class="about__grid">
+          <figure class="about__img about__img--main reveal">
+            <img src="https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=1100&q=72"
+                 srcset="https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=600&q=70 600w, https://images.unsplash.com/photo-1635424709961-f3a150459ad4?auto=format&fit=crop&w=1100&q=72 1100w"
+                 sizes="(min-width: 900px) 55vw, 100vw"
+                 width="1100" height="800" loading="lazy" alt="Two roofers working together on the roof of a house">
+          </figure>
+
+          <div class="about__text">
+            <p class="reveal">Summit Roofing Co. was set up around a simple idea: homeowners deserve a roofer who shows up when they said they would, explains the work in plain English, and leaves the yard cleaner than they found it.</p>
+            <p class="reveal">Every project gets a written scope, a dedicated project lead and the same crew from tear-off to final walk-through. No subcontractor shuffle. No vague invoices.</p>
+
+            <ul class="pillars">
+              <li class="reveal"><span class="pillars__num">A</span><div><h3>One crew, start to finish</h3><p>The people who inspect your roof are the people who build it.</p></div></li>
+              <li class="reveal"><span class="pillars__num">B</span><div><h3>Written scopes, no surprises</h3><p>Materials, timeline and price agreed on paper before work begins.</p></div></li>
+              <li class="reveal"><span class="pillars__num">C</span><div><h3>Clean sites, every day</h3><p>Magnetic sweeps for nails and debris hauled away before we leave.</p></div></li>
+            </ul>
+          </div>
+
+          <figure class="about__img about__img--small reveal">
+            <img src="https://images.unsplash.com/photo-1643225523483-e2c434191bba?auto=format&fit=crop&w=700&q=70"
+                 width="700" height="875" loading="lazy" alt="Roofer carrying a bundle of shingles across a residential roof">
+          </figure>
+
+          <aside class="demo-note reveal" aria-label="Demo disclosure">
+            <p class="demo-note__label">Portfolio notice</p>
+            <p>Summit Roofing Co. is a fictional business. It holds no real licenses, certifications or insurance, and has no real customers. Every name, number and review on this site is a placeholder.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="services__head">
+          <div class="section-label section-label--light reveal"><span>02</span> Services</div>
+          <h2 class="h2 reveal" id="services-title">Six services.<br>One standard of work.</h2>
+          <p class="services__intro reveal">Whether it's one missing shingle or a full tear-off, every job gets the same inspection, the same written scope and the same crew.</p>
+        </div>
+
+        <ol class="svc-list">
+          <li class="svc reveal">
+            <a class="svc__link" href="#contact" data-service="Roof Installation">
+              <span class="svc__num">01</span>
+              <h3 class="svc__title">Roof Installation</h3>
+              <p class="svc__desc">New roofs for new builds and additions — underlayment, flashing and ventilation planned as one system, not an afterthought.</p>
+              <span class="svc__tags">Asphalt · Metal · Tile</span>
+              <span class="svc__cta">Get a new roof estimate <span aria-hidden="true">→</span></span>
+              <span class="svc__img"><img src="https://images.unsplash.com/photo-1635424824849-1b09bdcc55b1?auto=format&fit=crop&w=640&h=440&q=70" width="640" height="440" loading="lazy" alt="Roofer fastening roofing with a power drill"></span>
+              <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li class="svc reveal">
+            <a class="svc__link" href="#contact" data-service="Roof Replacement">
+              <span class="svc__num">02</span>
+              <h3 class="svc__title">Roof Replacement</h3>
+              <p class="svc__desc">Full tear-off to the deck, rotten decking replaced, and a new roof installed and cleaned up — usually in days, not weeks.</p>
+              <span class="svc__tags">Tear-off · Decking · New system</span>
+              <span class="svc__cta">Get a replacement estimate <span aria-hidden="true">→</span></span>
+              <span class="svc__img"><img src="https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?auto=format&fit=crop&w=640&h=440&q=70" width="640" height="440" loading="lazy" alt="Roofer removing old shingles from a house"></span>
+              <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li class="svc reveal">
+            <a class="svc__link" href="#contact" data-service="Roof Repair">
+              <span class="svc__num">03</span>
+              <h3 class="svc__title">Roof Repair</h3>
+              <p class="svc__desc">Leaks, lifted shingles, failed flashing and cracked pipe boots — traced to the real source instead of patched over.</p>
+              <span class="svc__tags">Leaks · Flashing · Shingles</span>
+              <span class="svc__cta">Request a repair visit <span aria-hidden="true">→</span></span>
+              <span class="svc__img"><img src="https://images.unsplash.com/photo-1780445392484-5fb7d5610708?auto=format&fit=crop&w=640&h=440&q=70" width="640" height="440" loading="lazy" alt="Hands using a tool to fasten metal roofing"></span>
+              <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li class="svc reveal">
+            <a class="svc__link" href="#contact" data-service="Storm Damage">
+              <span class="svc__num">04</span>
+              <h3 class="svc__title">Storm Damage Restoration</h3>
+              <p class="svc__desc">Wind and hail assessments, emergency tarping, and photo documentation you can share with your insurance adjuster.</p>
+              <span class="svc__tags">Hail · Wind · Emergency tarps</span>
+              <span class="svc__cta">Request a storm damage inspection <span aria-hidden="true">→</span></span>
+              <span class="svc__img"><img src="https://images.unsplash.com/photo-1635424710928-0544e8512eae?auto=format&fit=crop&w=640&h=440&q=70" width="640" height="440" loading="lazy" alt="Roofer secured with a safety rope working on a roof"></span>
+              <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li class="svc reveal">
+            <a class="svc__link" href="#contact" data-service="Roof Inspection">
+              <span class="svc__num">05</span>
+              <h3 class="svc__title">Roof Inspection</h3>
+              <p class="svc__desc">A careful walk of your roof and attic, with photos and a plain-English report: what needs work now, later, or never.</p>
+              <span class="svc__tags">Photo report · Attic check</span>
+              <span class="svc__cta">Schedule a roof inspection <span aria-hidden="true">→</span></span>
+              <span class="svc__img"><img src="https://images.unsplash.com/photo-1635424824800-692767998d07?auto=format&fit=crop&w=640&h=440&q=70" width="640" height="440" loading="lazy" alt="Roofer in a yellow shirt checking a roof"></span>
+              <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li class="svc reveal">
+            <a class="svc__link" href="#contact" data-service="Gutter Installation">
+              <span class="svc__num">06</span>
+              <h3 class="svc__title">Gutter Installation</h3>
+              <p class="svc__desc">Seamless gutters and downspouts sized to your roof, so rainwater ends up away from your siding and foundation.</p>
+              <span class="svc__tags">Seamless · Guards · Downspouts</span>
+              <span class="svc__cta">Get a gutter estimate <span aria-hidden="true">→</span></span>
+              <span class="svc__img"><img src="https://images.unsplash.com/photo-1779941373840-a93f6e0d5db0?auto=format&fit=crop&w=640&h=440&q=70" width="640" height="440" loading="lazy" alt="Grey metal roof with white siding and a dormer window"></span>
+              <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+        </ol>
+
+        <div class="cta-band reveal">
+          <div class="cta-band__text">
+            <h3 class="cta-band__title">Not sure which service you need?</h3>
+            <p>Start with a free roof inspection. We'll photograph what we find and walk you through your options.</p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn--orange" href="#contact" data-service="Roof Inspection">Schedule a Roof Inspection</a>
+            <a class="cta-band__phone" href="tel:+15550107700">Talk to our roofing team: <span class="nowrap">(555) 010-7700</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects__head">
+          <div>
+            <div class="section-label reveal"><span>03</span> Featured Projects</div>
+            <h2 class="h2 reveal" id="projects-title">Recent work,<br>up close.</h2>
+          </div>
+          <p class="projects__note reveal">Sample projects for demonstration. Names and locations are fictional.</p>
+        </div>
+
+        <div class="ba reveal">
+          <div class="ba__stage" style="--pos: 50%">
+            <img class="ba__img ba__img--after"
+                 src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                 srcset="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800 800w, https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w"
+                 sizes="(min-width: 1000px) 62vw, 100vw"
+                 width="1600" height="1067" loading="lazy" alt="After: home with a clean, newly installed roof">
+            <div class="ba__before" aria-hidden="true">
+              <img class="ba__img ba__img--before"
+                   src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                   srcset="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800 800w, https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w"
+                   sizes="(min-width: 1000px) 62vw, 100vw"
+                   width="1600" height="1067" loading="lazy" alt="">
+            </div>
+            <span class="ba__label ba__label--before">Before</span>
+            <span class="ba__label ba__label--after">After</span>
+            <span class="ba__handle" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M9 6 3 12l6 6M15 6l6 6-6 6"/></svg></span></span>
+            <label class="sr-only" for="ba-range">Drag to compare before and after</label>
+            <input class="ba__range" id="ba-range" type="range" min="0" max="100" value="50" step="1">
+          </div>
+
+          <div class="ba__info">
+            <p class="ba__kicker">Project 014 · Full replacement</p>
+            <h3 class="ba__title">The Hollis Residence</h3>
+            <p class="ba__desc">Worn, curling shingles replaced with a full new roof system: new underlayment, flashing and ridge ventilation.</p>
+            <dl class="specs">
+              <div><dt>Service</dt><dd>Roof Replacement</dd></div>
+              <div><dt>Project type</dt><dd>Single-family home</dd></div>
+              <div><dt>Location</dt><dd>Demo City (demo)</dd></div>
+              <div><dt>Material</dt><dd>Architectural shingles</dd></div>
+            </dl>
+            <p class="ba__disclaimer">Demo visualization: the “before” state is simulated with an image treatment.</p>
+          </div>
+        </div>
+
+        <ul class="gallery">
+          <li class="gallery__item gallery__item--tall reveal">
+            <figure>
+              <div class="gallery__img"><span class="gallery__badge">Demo project</span><img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1000" width="1000" height="1250" loading="lazy" alt="Suburban home with a new roof at sunset"></div>
+              <figcaption>
+                <span class="gallery__row"><span class="gallery__name">Maple Ridge Colonial</span><span class="gallery__cat">Roof Replacement</span></span>
+                <span class="gallery__desc">Full tear-off and new architectural asphalt shingles, with new ridge vents and drip edge.</span>
+                <span class="gallery__meta">Two-story colonial · North Demo Heights <em>(demo)</em></span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="gallery__item reveal">
+            <figure>
+              <div class="gallery__img"><span class="gallery__badge">Demo project</span><img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1000" width="1000" height="700" loading="lazy" alt="Two-story house with garage at dusk"></div>
+              <figcaption>
+                <span class="gallery__row"><span class="gallery__name">Cedar Hollow Two-Story</span><span class="gallery__cat">Storm Damage</span></span>
+                <span class="gallery__desc">Hail-damaged slopes documented for the insurer, tarped the same week, then fully re-roofed.</span>
+                <span class="gallery__meta">Two-story with garage · East Demo County <em>(demo)</em></span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="gallery__item reveal">
+            <figure>
+              <div class="gallery__img"><span class="gallery__badge">Demo project</span><img src="https://images.unsplash.com/photo-1779941373840-a93f6e0d5db0?auto=format&fit=crop&w=1000&q=72" width="1000" height="700" loading="lazy" alt="Grey standing-seam metal roof with a dormer window"></div>
+              <figcaption>
+                <span class="gallery__row"><span class="gallery__name">Lakeside Standing Seam</span><span class="gallery__cat">Roof Installation</span></span>
+                <span class="gallery__desc">Standing-seam metal roof installed with new flashing around the dormer windows.</span>
+                <span class="gallery__meta">Cape with dormers · Lake Demo <em>(demo)</em></span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="gallery__item gallery__item--wide reveal">
+            <figure>
+              <div class="gallery__img"><span class="gallery__badge">Demo project</span><img src="https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1400" width="1400" height="800" loading="lazy" alt="Two-story family home with a new roof and gutters"></div>
+              <figcaption>
+                <span class="gallery__row"><span class="gallery__name">Oak Street Craftsman</span><span class="gallery__cat">Gutter Installation</span></span>
+                <span class="gallery__desc">New roof paired with seamless aluminum gutters and downspouts sized to the roof.</span>
+                <span class="gallery__meta">Craftsman family home · Demo City <em>(demo)</em></span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+
+        <div class="projects__cta reveal">
+          <p>Want results like these on your home?</p>
+          <a class="btn btn--dark" href="#contact">Request a Free Estimate
+            <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-label section-label--center reveal"><span>04</span> Why Summit</div>
+        <h2 class="h2 h2--center reveal" id="why-title">Craftsmanship you<br>can stand on</h2>
+
+        <div class="why__grid">
+          <article class="why-card reveal">
+            <header class="why-card__head">
+              <h3>Quality<br>workmanship</h3>
+              <svg class="why-card__icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M1 21 16 6l15 15h-6.2L16 12.2 7.2 21z"/></svg>
+            </header>
+            <div class="why-card__img"><img src="https://images.unsplash.com/photo-1763665814538-8ba04597286c?auto=format&fit=crop&w=400&h=400&q=70" width="400" height="400" loading="lazy" alt="Workers installing roof tiles on a new building"></div>
+            <p>Manufacturer-spec installs, hand-sealed details and flashing done right — the parts of a roof nobody sees until they fail.</p>
+          </article>
+          <article class="why-card reveal">
+            <header class="why-card__head">
+              <h3>Professional<br>service</h3>
+              <svg class="why-card__icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M1 21 16 6l15 15h-6.2L16 12.2 7.2 21z"/></svg>
+            </header>
+            <div class="why-card__img"><img src="https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?auto=format&fit=crop&w=400&h=400&q=70" width="400" height="400" loading="lazy" alt="Two roofers working on a roof"></div>
+            <p>A named project lead, on-time arrivals and daily updates by text. You always know who is on your roof and why.</p>
+          </article>
+          <article class="why-card reveal">
+            <header class="why-card__head">
+              <h3>Customer-focused<br>approach</h3>
+              <svg class="why-card__icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M1 21 16 6l15 15h-6.2L16 12.2 7.2 21z"/></svg>
+            </header>
+            <div class="why-card__img"><img src="https://images.unsplash.com/photo-1786295866839-d17f879c65cd?auto=format&fit=crop&w=400&h=400&q=70" width="400" height="400" loading="lazy" alt="Roofer installing window flashing on a grey house roof"></div>
+            <p>Honest advice first. If a repair will do the job, we'll tell you — even when a full replacement would be a bigger ticket.</p>
+          </article>
+        </div>
+
+        <p class="why__footer reveal">No pressure. No pushy sales. No surprises on the invoice.</p>
+
+        <div class="creds reveal" aria-labelledby="creds-title">
+          <div class="creds__head">
+            <h3 class="creds__title" id="creds-title">Licensing, insurance &amp; warranty</h3>
+            <p class="creds__note">Placeholders for the demo. A real contractor should list verified details here.</p>
+          </div>
+          <dl class="creds__grid">
+            <div class="creds__item">
+              <dt>Contractor license</dt>
+              <dd><span class="placeholder">License number placeholder</span></dd>
+            </div>
+            <div class="creds__item">
+              <dt>Insurance</dt>
+              <dd><span class="placeholder">Liability &amp; workers' comp details placeholder</span></dd>
+            </div>
+            <div class="creds__item">
+              <dt>Certifications</dt>
+              <dd><span class="placeholder">Manufacturer certifications placeholder</span></dd>
+            </div>
+            <div class="creds__item">
+              <dt>Warranty</dt>
+              <dd><span class="placeholder">Workmanship &amp; material warranty terms placeholder</span></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="process__head">
+          <div class="section-label section-label--light reveal"><span>05</span> Our Process</div>
+          <h2 class="h2 reveal" id="process-title">From first look<br>to final nail.</h2>
+        </div>
+
+        <div class="process__rail" aria-hidden="true"><span class="process__fill"></span></div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Request an Estimate</h3>
+            <p>Call us or send the short form. We'll confirm a time that suits you for the roof visit.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Roof Inspection</h3>
+            <p>We check your roof, flashing, gutters and attic, and photograph everything we find.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Review Your Options</h3>
+            <p>You get a written, line-by-line estimate with repair and replacement options explained in plain English.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Project Completion</h3>
+            <p>Our crew completes the work, cleans up the site, and walks the finished roof with you.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="testimonials__top">
+          <div>
+            <div class="section-label section-label--dark reveal"><span>06</span> Testimonials</div>
+            <h2 class="h2 reveal" id="testimonials-title">What homeowners<br>could say.</h2>
+          </div>
+          <p class="demo-pill reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v5M12 16h.01"/></svg>
+            Fictional demo testimonials — not real customer reviews
+          </p>
+        </div>
+
+        <div class="quotes reveal" data-quotes>
+          <div class="quotes__viewport" aria-live="polite">
+            <figure class="quote is-active">
+              <blockquote>“They found the leak two other companies missed, showed me photos of it, and fixed it the same week. The crew cleaned up so well you'd never know they'd been here.”</blockquote>
+              <figcaption><span class="quote__tagwrap"><span class="quote__tag">Sample review</span></span><span class="quote__name">Jordan M.</span><span class="quote__meta">Demo homeowner · Roof Repair</span></figcaption>
+            </figure>
+            <figure class="quote">
+              <blockquote>“After the hailstorm, Summit tarped our roof the next morning and put together a photo report for our adjuster. The whole replacement felt organized from day one.”</blockquote>
+              <figcaption><span class="quote__tagwrap"><span class="quote__tag">Sample review</span></span><span class="quote__name">Priya &amp; Sam K.</span><span class="quote__meta">Demo homeowners · Storm Damage Restoration</span></figcaption>
+            </figure>
+            <figure class="quote">
+              <blockquote>“The estimate was clear, the price didn't change, and the project lead texted me every evening. That's all I've ever wanted from a contractor.”</blockquote>
+              <figcaption><span class="quote__tagwrap"><span class="quote__tag">Sample review</span></span><span class="quote__name">Dale T.</span><span class="quote__meta">Demo homeowner · Roof Replacement</span></figcaption>
+            </figure>
+          </div>
+
+          <div class="quotes__controls">
+            <span class="quotes__count"><span data-quote-current>01</span> / 03</span>
+            <div class="quotes__btns">
+              <button type="button" class="round-btn" data-quote-prev aria-label="Previous testimonial"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+              <button type="button" class="round-btn" data-quote-next aria-label="Next testimonial"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__intro">
+          <div class="section-label reveal"><span>07</span> FAQ</div>
+          <h2 class="h2 reveal" id="faq-title">Questions,<br>answered.</h2>
+          <p class="reveal">Don't see yours? Call us or send a note with your estimate request — we'll answer it before we ever climb a ladder.</p>
+          <a class="btn btn--dark reveal" href="#contact">Ask a question</a>
+        </div>
+
+        <div class="faq__list">
+          <details class="faq-item reveal">
+            <summary><span>How long does a roof replacement take?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Most single-family homes take one to three working days. Larger or steeper roofs, complex details and weather can add time. Your written estimate includes a planned schedule.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary><span>Is the estimate really free?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Yes. The inspection and written estimate are free, with no obligation to book. You keep the photos either way.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary><span>Do you help with insurance claims after a storm?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>We document damage with photos and measurements and can meet your adjuster on site. Coverage decisions are always made by your insurance company, not by us.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary><span>Should I repair or replace my roof?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>It depends on the roof's age, how widespread the damage is, and the condition of the decking underneath. After the inspection we'll lay out both options and the trade-offs, so you can decide.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary><span>What roofing materials do you install?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Architectural asphalt shingles, standing-seam and exposed-fastener metal, and concrete or clay tile, plus seamless aluminum gutters.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary><span>Do I need to be home during the work?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>No. We'll ask for access to an outdoor outlet and the driveway. Your project lead will send updates and photos at the end of each day.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICE AREA ============ -->
+    <section class="section area" id="service-area" aria-labelledby="area-title">
+      <div class="container area__grid">
+        <div class="area__copy">
+          <div class="section-label reveal"><span>08</span> Service Area</div>
+          <h2 class="h2 reveal" id="area-title">Roofing across<br>Demo City.</h2>
+          <p class="area__lede reveal">We work on homes in Demo City and the surrounding communities. Free roof inspections are available across our whole service area.</p>
+          <ul class="area__list reveal">
+            <li>Demo City</li>
+            <li>North Demo Heights</li>
+            <li>East Demo County</li>
+            <li>West Demo Park</li>
+            <li>Lake Demo</li>
+            <li>South Demo Valley</li>
+          </ul>
+          <p class="area__note reveal">Demo locations. Replace them with real cities, towns or ZIP codes before launch.</p>
+          <div class="area__actions reveal">
+            <a class="btn btn--dark" href="#contact">Request a Free Estimate</a>
+            <a class="link-underline" href="tel:+15550107700">or call <span class="nowrap">(555) 010-7700</span></a>
+          </div>
+        </div>
+        <div class="area__map reveal" aria-hidden="true">
+          <svg viewBox="0 0 400 400">
+            <defs><pattern id="area-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0v20" fill="none" stroke="rgba(13,13,12,.07)" stroke-width="1"/></pattern></defs>
+            <rect width="400" height="400" fill="url(#area-grid)"/>
+            <circle cx="200" cy="200" r="170" class="area__ring area__ring--outer"/>
+            <circle cx="200" cy="200" r="110" class="area__ring"/>
+            <circle cx="200" cy="200" r="52" class="area__ring area__ring--inner"/>
+            <g class="area__dots">
+              <circle cx="200" cy="92" r="6"/><circle cx="305" cy="170" r="6"/><circle cx="96" cy="230" r="6"/>
+              <circle cx="262" cy="292" r="6"/><circle cx="140" cy="128" r="6"/><circle cx="182" cy="320" r="6"/>
+            </g>
+            <g class="area__pin" transform="translate(200 200)">
+              <path d="M0 18c-9-11-16-19-16-28a16 16 0 0 1 32 0c0 9-7 17-16 28z"/>
+              <circle cx="0" cy="-10" r="6" class="area__pin-dot"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__info">
+        <div class="section-label section-label--light"><span>09</span> Contact</div>
+        <h2 class="contact__title" id="contact-title">Get your free<br>estimate.</h2>
+        <p class="contact__lede">Tell us about your roof. A project lead will get back to you within one business day to schedule an inspection.</p>
+
+        <a class="contact__phone" href="tel:+15550107700">
+          <span class="contact__phone-label">Prefer to talk? Call us</span>
+          <span class="contact__phone-num">(555) 010-7700</span>
+        </a>
+
+        <dl class="contact__list">
+          <div><dt>Email</dt><dd><a href="mailto:hello@summitroofing.example">hello@summitroofing.example</a></dd></div>
+          <div><dt>Office</dt><dd><span class="placeholder placeholder--dark">Business address placeholder</span></dd></div>
+          <div><dt>Hours</dt><dd><span class="nowrap">Mon–Fri 7am–6pm</span> · <span class="nowrap">Sat 8am–1pm</span></dd></div>
+          <div><dt>Service area</dt><dd><a href="#service-area">Demo City &amp; surrounding areas</a></dd></div>
+        </dl>
+        <p class="contact__demo">Demo contact details: the 555-01xx number range is reserved for fictional use. Replace the phone, email, address and hours before launch.</p>
+      </div>
+
+      <div class="contact__form-wrap">
+        <form class="form" id="estimate-form" action="https://api.web3forms.com/submit" method="POST" novalidate aria-describedby="form-note">
+          <!-- Filled in by assets/js/main.js from assets/js/config.js (never hard-code fake keys here) -->
+          <input type="hidden" name="access_key" value="">
+          <input type="hidden" name="subject" value="New roof estimate request — Summit Roofing Co. website">
+          <input type="hidden" name="from_name" value="Summit Roofing Co. website">
+          <!-- Honeypot: real visitors never see or fill this. Web3Forms rejects submissions where it is checked. -->
+          <div class="hp" aria-hidden="true">
+            <label>Leave this box unchecked <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-name">Full name <span aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" required aria-describedby="f-name-err">
+              <p class="field__error" id="f-name-err"></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone number <span aria-hidden="true">*</span></label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" enterkeyhint="next" placeholder="(555) 555-5555" required aria-describedby="f-phone-err">
+              <p class="field__error" id="f-phone-err"></p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-email">Email address <span aria-hidden="true">*</span></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" autocapitalize="off" spellcheck="false" enterkeyhint="next" required aria-describedby="f-email-err">
+              <p class="field__error" id="f-email-err"></p>
+            </div>
+            <div class="field">
+              <label for="f-zip">ZIP code <span aria-hidden="true">*</span></label>
+              <input id="f-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" enterkeyhint="next" maxlength="10" required aria-describedby="f-zip-err">
+              <p class="field__error" id="f-zip-err"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-service">Service needed <span aria-hidden="true">*</span></label>
+            <div class="select">
+              <select id="f-service" name="service" required aria-describedby="f-service-err">
+                <option value="">Choose a service</option>
+                <option>Roof Replacement</option>
+                <option>Roof Installation</option>
+                <option>Roof Repair</option>
+                <option>Storm Damage</option>
+                <option>Roof Inspection</option>
+                <option>Gutter Installation</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <p class="field__error" id="f-service-err"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-msg">Short message <span class="optional">(optional)</span></label>
+            <textarea id="f-msg" name="message" rows="4" maxlength="1000" placeholder="Age of the roof, leaks, recent storms, timeline…"></textarea>
+          </div>
+
+          <div class="form__status" id="form-status" role="alert" hidden></div>
+
+          <button class="btn btn--orange btn--block btn--lg" type="submit">
+            <span class="btn__spinner" aria-hidden="true"></span>
+            <span class="btn__label">Request a Free Estimate</span>
+            <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="form__note" id="form-note">No obligation. We only use your details to respond to your estimate request.</p>
+        </form>
+
+        <div class="form-success" id="form-success" tabindex="-1" hidden>
+          <div class="form-success__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+          <h3>Request received.</h3>
+          <p>Thank you for contacting Summit Roofing Co. Your request has been received. Our team will follow up with you soon.</p>
+          <button type="button" class="btn btn--dark" id="form-reset">Send another request</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand brand--light" href="#top">
+            <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M1 21 16 6l15 15h-6.2L16 12.2 7.2 21z"/><path d="M10 27l6-6 6 6z"/></svg>
+            <span class="brand__name">Summit<span class="brand__suffix">Roofing Co.</span></span>
+          </a>
+          <p>Roof installation, replacement, repair and storm restoration for homeowners.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer">
+          <div>
+            <h2 class="footer__heading">Company</h2>
+            <ul><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#process">Process</a></li><li><a href="#service-area">Service Area</a></li><li><a href="#faq">FAQ</a></li></ul>
+          </div>
+          <div>
+            <h2 class="footer__heading">Services</h2>
+            <ul><li><a href="#services">Roof Installation</a></li><li><a href="#services">Roof Replacement</a></li><li><a href="#services">Roof Repair</a></li><li><a href="#services">Storm Damage Repair</a></li><li><a href="#services">Roof Inspection</a></li><li><a href="#services">Gutter Installation</a></li></ul>
+          </div>
+          <div>
+            <h2 class="footer__heading">Contact</h2>
+            <ul><li><a href="tel:+15550107700">(555) 010-7700</a></li><li><a href="mailto:hello@summitroofing.example">Email us</a></li><li><a href="#contact">Request a free estimate</a></li></ul>
+          </div>
+        </nav>
+      </div>
+
+      <p class="footer__word" aria-hidden="true">Summit</p>
+
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> Summit Roofing Co. — a fictional company built as a portfolio demo. No real licenses, certifications or reviews are represented.</p>
+        <p>Photography: <a href="https://unsplash.com" rel="noopener">Unsplash</a> &amp; <a href="https://www.pexels.com" rel="noopener">Pexels</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div class="mobile-cta" aria-hidden="true">
+    <a class="mobile-cta__call" href="tel:+15550107700" tabindex="-1">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      Call Now
+    </a>
+    <a class="mobile-cta__quote" href="#contact" tabindex="-1">Get Free Estimate</a>
+  </div>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
