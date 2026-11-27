@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEMPLATE — not deployed as-is.
+     Replace YOUR-DOMAIN with the real domain, save as /sitemap.xml in the site root,
+     and add the Sitemap line to robots.txt. See README → "Before going live". -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR-DOMAIN/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
