@@ -18,7 +18,7 @@
  * clear "not connected yet" message instead of pretending to send.
  */
 window.SUMMIT_CONFIG = {
-  web3formsAccessKey: "",
+  web3formsAccessKey: "fdd159fc-d312-4761-87c4-78126fa834b8",
   formEndpoint: "https://api.web3forms.com/submit",
   requestTimeoutMs: 15000,
   businessPhoneDisplay: "(555) 010-7700",
